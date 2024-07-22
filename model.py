@@ -1,25 +1,30 @@
-def instruction(instruction):
-    with open('instructions/' + instruction + '.txt'):
+import ollama
+
+def read_instruction(instruction):
+    with open('instructions/' + instruction + '.txt') as file:
         return file.read()
 
-def job(job):
-    with open('../fill_me_out/job_info/' + job + '.txt')
+def read_job(job):
+    with open('fill_me_out/job_info/' + job + '.txt') as file:
         return file.read()
 
-def skill(skill):
-    with open('../fill_me_out/user_info/ranking/' + skill + '.txt')
+def read_skill(skill):
+    with open('fill_me_out/user_info/ranking/' + skill + '.txt') as file:
         return file.read()
 
 def create_pick_out_skills_model():
-    instruction = instruction(pick_out_skills)
+    instruction = read_instruction("pick_out_skills")
+
     modelfile = f'''
     FROM llama3
     SYSTEM "{instruction}"
     '''
+    # Create the model using ollama
     ollama.create(model='pick_out_skills', modelfile=modelfile)
 
+
 def create_rank():
-    instruction = instruction(rank)
+    instruction = read_instruction("rank")
     modelfile = f'''
     FROM llama3
     SYSTEM "{instruction}"
@@ -28,7 +33,7 @@ def create_rank():
 
 def pick_out_skills(job, feedback=""):
 
-    query = job(job) 
+    query = read_job(job)
 
     stream = ollama.chat(
             model='pick_out_skills',
@@ -40,10 +45,10 @@ def pick_out_skills(job, feedback=""):
         print(chunk['message']['content'], end='', flush=True)
 
 def rank(rank, feedback=""):
-    query = skill(skill)
+    query = read_skill(skill)
 
     stream = ollama.chat(
-            model='rank'
+            model='rank',
             messages=[{'role':'user', 'content': query}],
             stream=True,
         )
