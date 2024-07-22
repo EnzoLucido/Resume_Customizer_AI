@@ -1,3 +1,5 @@
+import model
+
 import os
 import re
 
@@ -18,6 +20,10 @@ def main():
     job = user_input
 
     print("Awesome, we are working on your " + job + " application.")
+    print("Here's the skills I have identified!")
+    
+    model.create_pick_out_skills()
+    model.pick_out_skills(job)
 
     user_input = input("You: ")
 
