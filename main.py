@@ -24,6 +24,10 @@ def main():
     
     model.create_pick_out_skills_model()
     model.pick_out_skills(job)
+    
+    model.create_rank()
+
+    print("Please pick a skill to rank")
 
     user_input = input("You: ")
 
@@ -33,6 +37,8 @@ def main():
 
     ranking = user_input
     print("Groovy, we will be ranking your " + ranking + ".")
+
+    model.rank(ranking)
 
 if __name__ == "__main__":
     main()

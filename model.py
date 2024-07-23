@@ -44,7 +44,7 @@ def pick_out_skills(job, feedback=""):
     for chunk in stream:
         print(chunk['message']['content'], end='', flush=True)
 
-def rank(rank, feedback=""):
+def rank(skill, feedback=""):
     query = read_skill(skill)
 
     stream = ollama.chat(
@@ -54,4 +54,4 @@ def rank(rank, feedback=""):
         )
 
     for chunk in stream:
-        print(chunk['message']['content': query], end='', flush=True)
+        print(chunk['message']['content'], end='', flush=True)

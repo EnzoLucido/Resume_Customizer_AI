@@ -1,0 +1,7 @@
+Computer Science Fundamentals - Interpretation, Data Structures, the Machine (CS61A, CS61B, CS61C)
+Advanced Algorithms (CS170)
+Networking (CS168)
+Circuits and Linear Algebra (EE16A, EE16B)
+Game Design and Development (Decal)
+Discrete Math, Probability, Multivariable Calculus (CS70, MATH1A, MATH1B, MATH53)
+Physics (PHYSICS7A, PHYSICS7B)
