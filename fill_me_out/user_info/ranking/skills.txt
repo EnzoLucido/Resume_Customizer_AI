@@ -1,0 +1,32 @@
+KEEP THE FOLLOWING LISTS SEPARATE
+
+Technical Skills:
+
+    Data Structures
+    Object-Oriented Programming (OOP)
+    Advanced Algorithms
+    Efficiency/Optimization
+    Multi-threaded Programming
+    Multi-processed Programming
+    Version Control
+    Networking
+    Game Development
+    Unity
+    Scientific Programming
+    Program Optimization
+    Scripting
+    Linux
+    Windows
+
+Soft Skills:
+
+    Problem-Solving
+    Quick Learning
+    Intellectual Curiosity
+    Strong Verbal and Written Communication Skills
+    Communication
+    Commitment to Excellence
+    Perseverance
+    Can-Do Attitude
+    Sense of Urgency
+    Commitment to Improvement and Constructive Feedback

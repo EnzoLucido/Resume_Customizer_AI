@@ -1,0 +1,31 @@
+RANK USING THE TITLE ONLY
+
+Web-surfing AI Chatbot
+
+    Key Skills: AI Development, OOP, Dynamic Web Searching, Decision-Making Algorithms
+    Technologies Used: Ollama, Python
+
+Speedy Matrix Multiplier
+
+    Key Skills: SIMD, Parallel Processing, Algorithm Optimization, Performance Testing
+    Technologies Used: OpenMP, SIMD, C/C++
+
+Traceroute
+
+    Key Skills: Networking, Packet Management, Low-level Programming
+    Technologies Used: TCP/IP, Python, Mypy
+
+Game: First Contact
+
+    Key Skills: Game Development, Unity API, Team Leadership, Version Control
+    Technologies Used: Unity, C#
+
+Angie the Angler Fish
+
+    Key Skills: Random World Generation, OOP, Interactive Gameplay
+    Technologies Used: Java, Java's JPanel
+
+Classifier
+
+    Key Skills: Machine Learning, Data Classification, Model Training
+    Technologies Used: Scikit-learn, TensorFlow, Python

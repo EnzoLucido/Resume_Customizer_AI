@@ -1,0 +1,20 @@
+KEEP THESE CATEGORIES SEPARATE
+
+Advanced:
+
+    Python
+    Java
+    C
+    RISC-V
+
+Proficient:
+
+    C#
+    Ruby
+
+Beginner:
+
+    SCM
+    SQL
+    Bash
+    LaTeX
