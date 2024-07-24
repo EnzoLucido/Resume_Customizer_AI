@@ -1,6 +1,7 @@
 import model
 import modify
 
+from pathlib import Path
 '''
     Handling Section of ranking
     Relies on modify.py for more complex options
@@ -12,8 +13,12 @@ def ranking_all(ranking_options):
             model.rank(option)
     print("\n")
 
+def ranking_folder(job):
+    folder_name = Path("ouput/ranking/{}".format(job))
+    folder_name.mkdir(exist_ok=True)
 
-def rank(ranking_options):
+def rank(job, ranking_options):
+
     ranking_options.append("all")
 
     print("Please pick a skill to rank")
@@ -40,7 +45,7 @@ def rank(ranking_options):
         next_step = input("You: ")
     if next_step == "modify":
         modify.modify()
-    elif next_step == "yes":
+    elif next_step == "continue":
         ranking_section()
 
 

@@ -1,0 +1,16 @@
+The most important skills for an applicant to have according to this job description are:
+
+1. Excellent programming skills in Java or other object-oriented language
+2. Strong analytical-reasoning and problem-solving skills
+3. Ability to work both independently and in a wide variety of teams
+4. Solid grasp of general programming principles
+
+Additionally, knowledge of the following technologies is considered a plus:
+
+* Java
+* SQL
+* JavaScript
+* CSS
+* Source control (e.g. Git)
+
+It's also important for applicants to have a passion for improving education through technology and be willing to work collaboratively as part of a team.

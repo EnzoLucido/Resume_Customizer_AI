@@ -16,7 +16,7 @@ def main():
     job = pick_out_skills.pick_out(job_options)    
     
     model.create_rank_model(job)
-    ranking.rank(ranking_options)
+    ranking.rank(job, ranking_options)
     print("Please pick a skill to rank")
     #ranking_section()
 
