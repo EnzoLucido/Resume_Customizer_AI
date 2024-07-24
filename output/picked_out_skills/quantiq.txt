@@ -1,0 +1,20 @@
+Based on the job description, the most important skills from an applicant are:
+
+1. Programming skills:
+	* Proficient in Python and/or C++
+2. Networking knowledge:
+	* Familiarity with networking protocols such as TCP/IP and UDP
+3. Communication skills:
+	* Excellent communication skills within a collaborative environment
+4. Analytical and problem-solving skills:
+	* Ability to conduct comprehensive analysis and testing on extensive datasets
+	* Proficiency in writing highly performant code
+5. Autonomy and self-motivation:
+	* Ability to own projects from beginning to end without direct guidance
+	* Thrive in an environment with autonomy and minimal supervision
+6. Inquisitive nature and passion for learning:
+	* Open mind, eager to learn, and enjoy discussing ideas and receiving feedback
+7. Math skills:
+	* Enjoy working through puzzles and solving math problems
+
+These skills are essential for a Software Developer Intern at Quantiq Partners, as they will be working on various projects, writing code, collaborating with the Operations team, analyzing data, and communicating project updates across the organization.

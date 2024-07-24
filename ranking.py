@@ -37,7 +37,7 @@ def rank(ranking_options):
     next_step = input("You: ")
     while not next_step in ["modify", "continue", "quit"]:
         print("Please reply modify, continue or quit\n")
-        user_input = input("You: ")
+        next_step = input("You: ")
     if next_step == "modify":
         modify.modify()
     elif next_step == "yes":
