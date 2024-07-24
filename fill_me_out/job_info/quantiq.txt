@@ -1,0 +1,36 @@
+Quantiq Partners specializes in high frequency derivatives trading in the largest markets worldwide. Our approach is rigorous and pragmatic, driven by technological expertise and analytics, informed by real-world experience. We value employees who love to learn and have the tenacity, curiosity, and willpower to contribute to our continuing success.
+
+We are a small but passionate team, dedicated to enhancing and refining our tried and true methods as we commit to our ongoing growth and performance.
+
+As a Software Developer Intern at Quantiq Partners, you will work in our Austin office, both independently and collaboratively, to fuel the continuous advancement of our production trading environment. Your responsibilities will span a range of projects, involving topics such as network packet processing, messaging specifications, and financial data processing, among others. You will own each project you work on and deliver thoughtful and articulate insights with regular updates. If the following resonates with you, we would love to welcome you to our team.
+
+ 
+
+Job Responsibilities:
+
+    Maintain and enhance existing infrastructure and other software systems
+    Collaborate with the Operations team to develop solutions to meet business needs
+    Evaluate the performance of existing systems and streamline technical operations
+    Write quality, highly performant code (C++ or Python)
+    Effectively monitor and communicate project releases across the organization
+    Perform deep dive analysis and debugging of new and existing code
+    Conduct comprehensive analysis and testing on extensive datasets
+    Other duties as assigned or needed
+
+Qualifications:
+
+    Proficient in Python and/or C++
+    Familiar with networking protocols such as TCP/IP and UDP
+    Interest in writing highly performant code
+    Excellent communication skills within a collaborative environment
+    Pursuance of a degree in a field such as computer engineering, computer science, mathematics or a related field, or equivalent practical experience, is preferred
+
+Please Apply If:
+
+    You own your projects from beginning to end
+    You thrive without direct guidance and prefer autonomy
+    Speaking up and expressing your ideas comes naturally to you
+    You're ready to embrace discussions and constructive feedback
+    You go to bed thinking of ways to solve hard problems
+    You have an inquisitive nature, open mind, and passion for learning
+    You enjoy working through puzzles and solving math problems
