@@ -1,5 +1,10 @@
 import ollama
 
+'''
+    Create ALL models
+    Handles ALL ollama logic
+'''
+
 def read_instruction(instruction):
     with open('instructions/' + instruction + '.txt') as file:
         return file.read()
@@ -23,13 +28,17 @@ def create_pick_out_skills_model():
     ollama.create(model='pick_out_skills', modelfile=modelfile)
 
 
-def create_rank():
+def create_rank_model():
     instruction = read_instruction("rank")
     modelfile = f'''
     FROM llama3
     SYSTEM "{instruction}"
     '''
     ollama.create(model='rank', modelfile=modelfile)
+
+def create_all_models():
+    create_pick_out_skills_model()
+    create_rank_model()
 
 def pick_out_skills(job, feedback=""):
 
