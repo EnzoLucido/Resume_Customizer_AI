@@ -13,34 +13,35 @@ def ranking_all(ranking_options):
     print("\n")
 
 
-def ranking_section(ranking_options):
+def rank(ranking_options):
     ranking_options.append("all")
 
     print("Please pick a skill to rank")
 
-    user_input = input("You: ")
+    skill = input("You: ")
 
-    while not user_input in ranking_options:
+    while not skill in ranking_options:
         print("Please try again, pick one of these values: " + str(ranking_options) + "\n")
-        user_input = input("You: ")
+        skill = input("You: ")
 
-    ranking = user_input
-    print("Groovy, we will be ranking your " + ranking + ".")
+    print("Groovy, we will be ranking your " + skill + ".")
 
-    if ranking == "all":
+    if skill == "all":
         ranking_all(ranking_options)
 
 
-    model.rank(ranking)
+    model.rank(skill)
     print("\n")
-    print("Do you want to modify these skills, continue with another section or quit? Reply modify, continue or quit\n")
+    print("Do you want to modify this ranking, continue with another section or quit? Reply modify, continue or quit\n")
 
-    user_input = input("You: ")
-    while not user_input in ["modify", "continue", "quit"]:
+    next_step = input("You: ")
+    while not next_step in ["modify", "continue", "quit"]:
         print("Please reply modify, continue or quit\n")
         user_input = input("You: ")
-    if user_input == "modify":
-        modify()
-    elif user_input == "yes":
+    if next_step == "modify":
+        modify.modify()
+    elif next_step == "yes":
         ranking_section()
 
+
+    return skill

@@ -17,6 +17,13 @@ def pick_out(job_options):
 
     model.pick_out_skills(job)
 
+    next_step = input("You: ")
+    while not next_step in ["modify", "continue"]:
+        print("Please reply modify, continue or quit\n")
+        next_step = input("You: ")
+        if next_step == "modify":
+            modify.modify()
+
     return job
 
 
